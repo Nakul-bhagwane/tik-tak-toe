@@ -41,6 +41,7 @@ for (let i of boxes) {
                 
                 if (winner()) {
                     alert("wohoho you are the winner");
+                    
 
                     setTimeout(() => {
                         empty_box();
