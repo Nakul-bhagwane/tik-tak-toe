@@ -1,8 +1,8 @@
 body{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-flow: column;
+    background-color: rgba(247, 127, 16, 0.171)
 }
 .h1_div{
     width: auto;
@@ -11,22 +11,31 @@ body{
     border: 1px solid black;
 }
 h1{
-    font-size: 6rem;
-    color: rgba(138, 124, 102, 0.514);
-
+    font-size: 5rem;
+    color: rgba(138, 124, 102, 0.801);
+}
+.result{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.result h1{
+    font-size: 3rem;
+    color: rgb(179, 124, 36);
 }
 #body{
     border: 1px solid;
-    height: 450px;
-    width: 450px;
+    height: 430px;
+    width: 430px;
     display: flex;
     flex-flow: row wrap;
     background-color: rgba(138, 124, 102, 0.514);
-    margin: 50px auto  ;
+    margin: 30px auto  ;
 }
 .boxes{
-    height: 140px;
-    width: 140px;
+    height: 130px;
+    width: 130px;
     border: 1px solid;
     margin: auto auto;
     background-color: blanchedalmond;

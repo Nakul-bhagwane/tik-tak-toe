@@ -21,10 +21,12 @@ for (let i of boxes) {
                 counter++;
 
                 if (winner()) {
-                    alert("wohoho you are the winner");
+                    // alert("wohoho you are the winner");
+                    document.getElementById("result_h1").textContent = "winner";
 
                     setTimeout(() => {
                         empty_box();
+                        document.getElementById("result_h1").textContent = "";
                     }, 2000);
 
                     counter = '0';
