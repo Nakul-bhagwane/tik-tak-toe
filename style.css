@@ -8,21 +8,20 @@ body{
     width: auto;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 h1{
     font-size: 5rem;
-    color: rgba(138, 124, 102, 0.801);
+    color: rgba(138, 124, 102, 0.514);
+
 }
 .result{
     width: auto;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 .result h1{
     font-size: 3rem;
-    color: rgb(179, 124, 36);
+    color: rgb(167, 104, 3);
 }
 #body{
     border: 1px solid;
